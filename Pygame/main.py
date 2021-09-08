@@ -54,6 +54,7 @@ while window:
     surface.fill(white)
     #surface.blit(python, (move_x,move_y))
     surface.blit(text,(300,400))
+    pygame.draw.circle(surface, black, (200,200), 20)
     win.update()
     clock.tick(30)
 pygame.quit()
